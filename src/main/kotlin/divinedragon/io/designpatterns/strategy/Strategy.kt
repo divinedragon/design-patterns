@@ -1,6 +1,6 @@
 package divinedragon.io.designpatterns.strategy
 
-inteface Strategy {
+interface Strategy {
 
-    func algorithm()
+    fun algorithm(input: String) : String
 }
